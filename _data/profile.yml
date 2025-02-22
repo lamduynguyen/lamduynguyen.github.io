@@ -8,10 +8,10 @@ navbar_name: "Lam-Duy Nguyen"
 #   logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 email: "lamduy.nguyen@tum.de"
-# cv_link: link-to-your-cv-file
-gscholar: EjocKAoAAAAJ  # This is an example, replace it with your own Google Scholar ID
+cv_link: /assets/pdf/resume.pdf
+gscholar: EjocKAoAAAAJ
 github: lamduy-nguyen
-# twitter: your_twitter_id  # Do not include the '@' symbol
+twitter: lamduy_nguyen
 linkedin: lamduy-nguyen
 orcid: 0009-0007-6897-3019
 
