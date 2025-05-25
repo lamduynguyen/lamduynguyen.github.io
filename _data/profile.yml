@@ -47,3 +47,9 @@ awards:
   date: 2020 - 2022
 - name: Second prize in Vietnam National Olympiad in Informatics
   date: 2012
+
+services:
+- name: External Reviewer
+  venue: VLDB'25
+- name: Shadow Program Committee
+  venue: VLDB'26

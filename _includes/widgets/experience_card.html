@@ -10,7 +10,7 @@
                             <ul class="list-unstyled mb-1">
                                 {% for item in site.data.profile.education %}
                                 <li class="media mb-1">
-                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 18px;" class="mr-1 mt-1">
+                                    <img src="{{ item.logo | relative_url }}" alt="{{ item.name }}" style="width: 25px;" class="mr-1 mt-1">
                                     <div class="media-body">
                                         <div>{{ item.name }}</div>
                                         <div class="small">{{ item.dept }}</div>
@@ -64,9 +64,22 @@
                                 {% endfor %}
                             </ul>
                         </div>
+                        {% endif %}
+                        <br/>
+                        {% if site.data.profile.services %}
+                        <div class="mx-2 my-1">
+                            <h6>Professional Services</h6>
+                            <ul class="list small pl-3 mb-1">
+                                {% for item in site.data.profile.services %}
+                                <li>
+                                    <div>{{ item.name }}</div>
+                                    <div><em>{{ item.venue }}</em></div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
                     </div>
-                    {% endif %}
-
                 </div>
 
             </div>
