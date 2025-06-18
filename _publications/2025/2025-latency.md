@@ -4,7 +4,6 @@ date:           2025-06-01
 selected:       true
 pub:            "International Conference on Management of Data (SIGMOD)"
 pub_date:       "2025"
-pub_post:       'To appear.'
 cover:          /assets/images/covers/latency.png
 authors:
 - Lam-Duy Nguyen
