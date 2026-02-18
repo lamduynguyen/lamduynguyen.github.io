@@ -35,4 +35,8 @@ plugins:
 timezone: Europe/Berlin
 
 collections:
-  - publications
+  publications:
+    output: true
+  blogs:
+    output: true
+    permalink: /posts/:year/:month/:title/
