@@ -24,11 +24,12 @@
             </div>
 
             {% assign text = item.excerpt | default: item.content | strip_html %}
+            {% assign full_text = item.content | strip_html %}
             {% assign limit = 200 %}
             <div class="text-muted">
                 {{ text | truncate: limit }}
             </div>
-            {% if text.size > limit %}
+            {% if full_text.size > limit %}
             <div class="mt-2">
                 <a href="{{ item.url | relative_url }}" class="btn btn-outline-primary btn-sm">
                     Read More <i class="fas fa-arrow-right"></i>
