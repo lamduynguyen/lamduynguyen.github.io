@@ -50,7 +50,7 @@ awards:
 
 services:
 - name: (External) Reviewer
-  venue: VLDB'25, TKDE'25
+  venue: VLDB'27, VLDB'25, TKDE'25
 - name: Shadow Program Committee
   venue: VLDB'26
 - name: Artifacts Availability & Reproducibility Committee
