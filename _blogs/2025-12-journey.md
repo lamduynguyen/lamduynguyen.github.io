@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'My Journey to the West: Database Research at TU Munich'
+title: 'My journey to the west: Database research at TU Munich'
 date: 2025-12-19
 tags:
   - life

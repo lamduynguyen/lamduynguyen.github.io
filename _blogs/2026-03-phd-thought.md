@@ -7,8 +7,8 @@ tags:
   - random
 ---
 
-I recently came across a fascinating article -- [Instructions for PhD Students](https://home.cse.ust.hk/~dimitris/Instructions%20for%20PhD%20Students.pdf) by Prof. Dimitris Papadias -- that resonated deeply with my own experiences and views on doctoral study.
-I'd like to build on it with some personal perspectives of my own.
+I recently came across an interesting article -- [Instructions for PhD Students](https://home.cse.ust.hk/~dimitris/Instructions%20for%20PhD%20Students.pdf) by Prof. Dimitris Papadias -- that resonates deeply with my own experiences and views on doctoral study.
+I would like to build on it with some of my personal views.
 
 ## Qualifications of a PhD Student
 
@@ -21,7 +21,7 @@ That question is best explored through a few honest questions:
 - Could you achieve the same goal without one?
 - How important is financial stability to you over the next few years?
 
-Some motivations that tend to lead people astray:
+Some motivations that tend to break people:
 
 - *"I want a PhD because person X has one, and I think I'm smarter than them."*
 - *"I'm intelligent, so I can get through a PhD."*
