@@ -12,7 +12,7 @@ A GitHub Pages (Jekyll) template for personal academic website. Click [here](htt
 
 ## User Community
 
-[🏡](https://luost.me/)
+[:star:](https://luost.me/)
 [:star:](https://cch1999.github.io/)
 [:star:](https://kyrrego.github.io/)
 [:star:](https://ced3-han.github.io/)

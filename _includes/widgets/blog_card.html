@@ -22,18 +22,21 @@
                     </span>
                 {% endif %}
             </div>
+
+            {% assign text = item.excerpt | default: item.content | strip_html %}
+            {% assign full_text = item.content | strip_html %}
+            {% assign limit = 200 %}
             <div class="text-muted small">
-                {% if item.excerpt %}
-                    {{ item.excerpt | strip_html | truncate: 500 }}
-                {% else %}
-                    {{ item.content | strip_html | truncate: 500 }}
-                {% endif %} 
+                {{ text | truncate: limit }}
             </div>
+            {% if full_text.size > limit %}
             <div class="mt-2">
-                <a href="{{ item.url | relative_url }}">
-                    Read more <i class="fas fa-angle-double-right"></i>
+                <a href="{{ item.url | relative_url }}" class="btn btn-outline-primary btn-sm">
+                    Read More <i class="fas fa-arrow-right"></i>
                 </a>
             </div>
+            {% endif %}
         </div>
     </div>
 </div>
+
