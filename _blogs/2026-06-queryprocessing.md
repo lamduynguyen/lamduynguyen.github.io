@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: 'Competitive programming: Finally found a usage for my competitive programming knowledge'
+title: 'Finally found a usage for my competitive programming knowledge'
 date: 2026-03-20
 tags:
   - research
