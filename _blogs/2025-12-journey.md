@@ -20,7 +20,7 @@ Academia is intimidating: I have to teach — once handling a class of over 100 
 Given all that, why did I choose to do research in the first place?
 The key reason is simple: there is no DBMS job in Vietnam that would pay me ransomly (and please, don’t mention VNG 😅💢).
 My thinking back then was straightforward -- if I couldn’t make much money doing what I loved, I might as well aim for glory instead (me 8 years ago was so childish).
-Academia seemed like the fastest -- or maybe the only? I don't know to be honest -- path that fit my personality.
+Academia seemed like the fastest path that fit my personality.
 So, despite all the challenges, I went for it.
 
 ## How system research looks like?
@@ -37,8 +37,8 @@ Projects like DuckDB, for example, show that database research can be both scien
 
 Beyond that, the topic you choose has to be something you actually enjoy -- otherwise, the whole journey becomes much harder than it needs to be.
 This is also one of the key reasons why many PhD students burn out or even drop out, together with the usual side effects like peer pressure and health issues.
-In my case, I was lucky: my advisor is smart, so finding a problem was never the hard part.
-My job was mostly to tackle whatever he threw at me.
+In my case, I was lucky: My advisor and I shared similar research interests, and he is also crazily smart.
+Hence, finding a problem was never the hard part, and my job is simply to tackle whatever he threw at me.
 
 From there, the first real task is to learn the topic and dig into the related work.
 Because implementing an idea in systems research is incredibly time-consuming -- see [my advisor’s blog here](https://databasearchitects.blogspot.com/2023/01/for-systems-research-is-development-and.html) -- you *really* don’t want to skip this step.
@@ -48,7 +48,7 @@ After that comes writing the paper.
 If all you want is to pad your CV with as many accepted papers as possible, this part isn’t too bad -- yes, even papers at top conferences like SIGMOD/VLDB aren’t too hard to write.
 The writing process only becomes brutally hard when you aim for real impact.
 Then you need all sorts of subtle tricks: framing, narrative flow, manipulation, even a bit of marketing.
-And after doing all of that -- plus teaching and some unpaid community service like reviewing papers -- you finally earn a PhD.
+And after doing all of that -- plus teaching and (probably) some unpaid community service like reviewing papers -- you finally earn a PhD.
 
 In the DBMS community, which is small and tight-knit, having 3-4 SIGMOD/VLDB papers during PhD is often enough to get you a postdoc almost anywhere in the world.
 This is because everyone knows everyone else and how good they are.
