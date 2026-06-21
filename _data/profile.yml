@@ -21,7 +21,7 @@ short_bio: >-
     Before joining TUM, he received a B.Sc. in Computer Science and Engineering from Vietnam National University and a M.Sc. in Computer Science at Sungkyunkwan University, South Korea.
   </p>
   <p>
-    His research area is Database Management Systems, focusing on core research topics such as concurrency control, buffer management, and storage.
+    His research area is Database Management Systems, focusing on core topics such as query processing, concurrency control, and buffer management.
   </p>
 
 portrait_url: /assets/images/photo.jpg
@@ -42,15 +42,11 @@ education:
   position: B.Sc. in Computer Science
   date: 2013 - 2017
 
-awards:
-- name: STEM Scholarship for International Graduate Students - SKKU
-  date: 2020 - 2022
-- name: Second prize in Vietnam National Olympiad in Informatics
-  date: 2012
-
 services:
+- name: Program Committee
+  venue: VLDB'27
 - name: (External) Reviewer
-  venue: VLDB'27, VLDB'25, TKDE'25
+  venue: VLDB'25, TKDE'25
 - name: Shadow Program Committee
   venue: VLDB'26
 - name: Artifacts Availability & Reproducibility Committee
