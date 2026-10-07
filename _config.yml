@@ -35,8 +35,16 @@ plugins:
 
 timezone: Europe/Berlin
 
+# News card display options
+news_display:
+  # Number of news items shown initially. If there are more items than this,
+  # the rest are hidden and a "Show all news" button reveals them.
+  # Set to 0 to always show every item.
+  limit: 5
+
 collections:
   publications:
   blogs:
     output: true
     permalink: /blogs/:year/:title/
+  news:

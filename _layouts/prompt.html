@@ -1,86 +1,17 @@
 <!DOCTYPE html>
 <html class="h-100">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{{ page.title }}</title>
-    <!-- Profile structured data  -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfilePage",
-      "@id": "https://lamduynguyen.github.io/#profile",
-      "url": "https://lamduynguyen.github.io/",
-      "mainEntity": {
-        "@type": "Person",
-        "@id": "https://lamduynguyen.github.io/#person",
-        "name": "Lam-Duy Nguyen",
-        "givenName": "Lam-Duy",
-        "familyName": "Nguyen",
-        "alternateName": [
-          "Lam Duy Nguyen",
-          "Nguyen Lam Duy",
-          "Duy Nguyen"
-        ],
-        "knowsAbout": [
-          "Database Management Systems",
-          "Query Processing",
-          "Concurrency Control",
-          "Buffer Management"
-        ],
-        "url": "https://lamduynguyen.github.io/",
-        "image": "{{ '/assets/images/photo.jpg' | relative_url }}",
-        "jobTitle": "Ph.D. Candidate",
-        "description": "Lam-Duy Nguyen is a Ph.D. candidate in the Chair for Decentralized Information Systems and Data Management at the Technical University of Munich. His research focuses on database management systems, including query processing, concurrency control, and buffer management.",
-        "worksFor": {
-          "@type": "CollegeOrUniversity",
-          "name": "Technical University of Munich",
-          "url": "https://www.tum.de/"
-        },
-        "affiliation": {
-          "@type": "ResearchOrganization",
-          "name": "Chair for Decentralized Information Systems and Data Management",
-          "parentOrganization": {
-            "@type": "CollegeOrUniversity",
-            "name": "Technical University of Munich"
-          }
-        },
-        "sameAs": [
-          "https://www.linkedin.com/in/lamduynguyen",
-          "https://scholar.google.com/citations?user=EjocKAoAAAAJ",
-          "https://orcid.org/0009-0007-6897-3019",
-          "https://github.com/lamduynguyen",
-          "https://www.cs.cit.tum.de/dis/team/lam-duy-nguyen",
-          "https://dblp.org/pid/328/6392.html"
-        ]
-      }
-    }
-    </script>
-    <!-- GG analytic -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9NSTVTT3PN"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-        window.dataLayer.push(arguments);
+    {% capture prompt_extra_head %}
+    <style type="text/css">
+        .container {
+            width: auto;
+            max-width: 680px;
+            padding: 0 15px;
         }
-        gtag('js', new Date());
-        gtag('config', 'G-9NSTVTT3PN');
-    </script>
-    <meta name="google-site-verification" content="xQmrYn1frv9dLNrNG3sZkSFEFYVqJJCiTj3Kbsl6trY">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
+    </style>
+    {% endcapture %}
+    {% include head.html hide_site_name=true extra_head=prompt_extra_head %}
 </head>
-<style type="text/css">
-    .container {
-        width: auto;
-        max-width: 680px;
-        padding: 0 15px;
-    }
-</style>
 <body class="d-flex flex-column h-100">
     <main role="main" class="flex-grow-1">
         <div class="container">

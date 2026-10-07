@@ -423,3 +423,8 @@ div.lazy {
 .email-text {
     font-family: Source Code Pro, monospace;
 }
+
+/* News card: items hidden until "Show all news" is clicked */
+.news-hidden {
+    display: none;
+}

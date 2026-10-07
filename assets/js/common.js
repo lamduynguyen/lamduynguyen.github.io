@@ -39,4 +39,10 @@ $(function () {
     $(".lazy").on("load", function () {
         $grid.masonry('layout');
     });
+
+    // News card: reveal the items hidden beyond the configured limit
+    $('#news-show-all').on('click', function () {
+        $('#news-card .news-hidden').removeClass('news-hidden');
+        $(this).remove();
+    });
 })
