@@ -396,6 +396,14 @@ h1, h2, h3, h4, h5, h6,
     max-height: 120px;
 }
 
+/* Publication list cover: cap the height so portrait covers don't set the row height.
+   width:auto lets the box hug the picture (w-100 + object-fit would letterbox it) */
+.publication-cover {
+    max-height: 140px;
+    width: auto;
+    max-width: 100%;
+}
+
 .abstract-body {
     min-height: 100px;
 }
@@ -422,4 +430,9 @@ div.lazy {
 
 .email-text {
     font-family: Source Code Pro, monospace;
+}
+
+/* News card: items hidden until "Show all news" is clicked */
+.news-hidden {
+    display: none;
 }
