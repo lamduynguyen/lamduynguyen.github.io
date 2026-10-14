@@ -1,6 +1,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ page.title }}{% unless include.hide_site_name %} - {{ site.data.profile.navbar_name }}{% endunless %}</title>
+    <meta property="og:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
+    <meta property="og:title" content="{{ site.data.profile.navbar_name }}">
     <!-- Profile structured data  -->
     <script type="application/ld+json">
     {
