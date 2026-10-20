@@ -3,55 +3,54 @@
     <title>{{ page.title }}{% unless include.hide_site_name %} - {{ site.data.profile.navbar_name }}{% endunless %}</title>
     <meta property="og:image" content="{{ site.data.profile.portrait_url | absolute_url }}">
     <meta property="og:title" content="{{ site.data.profile.navbar_name }}">
-    <!-- Profile structured data  -->
+    <!-- Person structured data -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "ProfilePage",
-      "@id": "https://lamduynguyen.github.io/#profile",
+      "@type": "Person",
+      "@id": "https://lamduynguyen.github.io/#person",
+      "name": "Lam-Duy Nguyen",
+      "givenName": "Lam-Duy",
+      "familyName": "Nguyen",
+      "alternateName": [
+        "Lam Duy Nguyen",
+        "Nguyen Lam Duy"
+      ],
       "url": "https://lamduynguyen.github.io/",
-      "mainEntity": {
-        "@type": "Person",
-        "@id": "https://lamduynguyen.github.io/#person",
-        "name": "Lam-Duy Nguyen",
-        "givenName": "Lam-Duy",
-        "familyName": "Nguyen",
-        "alternateName": [
-          "Lam Duy Nguyen",
-          "Nguyen Lam Duy"
-        ],
-        "knowsAbout": [
-          "Database Management Systems",
-          "Query Processing",
-          "Concurrency Control",
-          "Buffer Management"
-        ],
-        "url": "https://lamduynguyen.github.io/",
-        "image": "{{ '/assets/images/photo.jpg' | relative_url }}",
-        "jobTitle": "Ph.D. Candidate",
-        "description": "Lam-Duy Nguyen is a Ph.D. candidate in the Chair for Decentralized Information Systems and Data Management at the Technical University of Munich. His research focuses on database management systems, including query processing, concurrency control, and buffer management.",
-        "worksFor": {
+      "image": "{{ '/assets/images/photo.jpg' | absolute_url }}",
+      "jobTitle": "Ph.D. Candidate",
+      "description": "Lam-Duy Nguyen is a Ph.D. candidate in the Chair for Decentralized Information Systems and Data Management at the Technical University of Munich. His research focuses on database management systems, including query processing, concurrency control, and buffer management.",
+      "affiliation": {
+        "@type": "CollegeOrUniversity",
+        "name": "Technical University of Munich",
+        "url": "https://www.tum.de/"
+      },
+      "alumniOf": [
+        {
           "@type": "CollegeOrUniversity",
-          "name": "Technical University of Munich",
-          "url": "https://www.tum.de/"
+          "name": "Sungkyunkwan University",
+          "url": "https://www.skku.edu/eng/"
         },
-        "affiliation": {
-          "@type": "ResearchOrganization",
-          "name": "Chair for Decentralized Information Systems and Data Management",
-          "parentOrganization": {
-            "@type": "CollegeOrUniversity",
-            "name": "Technical University of Munich"
-          }
-        },
-        "sameAs": [
-          "https://www.linkedin.com/in/lamduynguyen",
-          "https://scholar.google.com/citations?user=EjocKAoAAAAJ",
-          "https://orcid.org/0009-0007-6897-3019",
-          "https://github.com/lamduynguyen",
-          "https://www.cs.cit.tum.de/dis/team/lam-duy-nguyen",
-          "https://dblp.org/pid/328/6392.html"
-        ]
-      }
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Vietnam National University",
+          "url": "https://vnu.edu.vn/eng/"
+        }
+      ],
+      "knowsAbout": [
+        "Database Management Systems",
+        "Query Processing",
+        "Concurrency Control",
+        "Buffer Management"
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0007-6897-3019",
+        "https://scholar.google.com/citations?user=EjocKAoAAAAJ",
+        "https://github.com/lamduynguyen",
+        "https://www.linkedin.com/in/lamduynguyen",
+        "https://www.cs.cit.tum.de/dis/team/lam-duy-nguyen",
+        "https://dblp.org/pid/328/6392.html"
+      ]
     }
     </script>
     <!-- GG analytic -->
