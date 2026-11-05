@@ -1,7 +1,7 @@
 ---
 title:          "Moving on From Group Commit: Autonomous Commit Enables High Throughput and Low Latency on NVMe SSDs"
 date:           2025-06-01
-selected:       true
+selected:       false
 pub:            "International Conference on Management of Data (SIGMOD)"
 pub_date:       "2025"
 cover:          /assets/images/covers/latency.png

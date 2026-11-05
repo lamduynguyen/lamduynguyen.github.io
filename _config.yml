@@ -13,7 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-baseurl: "" # the subpath of your site, e.g. /blog
+
+# Site settings
+# This is a GitHub user site (username.github.io), so it is served from the
+# domain root and the baseurl must be empty.
+url: "https://lamduynguyen.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
