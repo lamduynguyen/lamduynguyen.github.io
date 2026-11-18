@@ -2,11 +2,6 @@ primary_name: "Lam-Duy Nguyen"
 secondary_name:
 navbar_name: "Lam-Duy Nguyen"
 
-# positions:
-# - name: Scientific Employee
-# - name: Affiliation Name
-#   logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-
 email: "lamduy.nguyen@tum.de"
 cv_link: /assets/pdf/resume.pdf
 gscholar: EjocKAoAAAAJ
@@ -42,10 +37,10 @@ education:
 
 services:
 - name: Program Committee
-  venue: VLDB'27, BTW'27 (Demo track)
-- name: (External) Reviewer
-  venue: VLDB'25, TKDE'25
+  venue: VLDB'27, SIGMOD'27 (Demo), BTW'27 (Demo)
 - name: Shadow Program Committee
   venue: VLDB'26
+- name: Reviewer
+  venue: TKDE'25
 - name: Artifacts Availability & Reproducibility Committee
   venue: SIGMOD'25
